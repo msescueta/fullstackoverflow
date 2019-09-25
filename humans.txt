@@ -1,0 +1,64 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+
+  /* DEVELOPERS */
+  Front End Developer : Michael Escueta
+  Location: Quezon City, Philippines
+
+  Back End Developer : <name>
+  Location: Quezon City, Philippines
+
+  /* CREATIVES */
+  Art Director : <name>
+  Location: Quezon City, Philippines
+
+  /* STRATEGIST */
+  Strategist : <name>
+  Location: Quezon City, Philippines
+
+  /* PROJECT MANAGER */
+  Project Manager : <name>
+  Location: Quezon City, Philippines
+
+  /* QUALITY ASSURANCE */
+  Quality Assurance Specialist : <name>
+  Location: Quezon City, Philippines
+
+  /* ACCOUNT MANAGER */
+  Account Officer : <name>
+  Location: Quezon City, Philippines
+
+
+/* THANKS */
+  Digital Media Division - Operations Head : <name>
+  Location: Quezon City, Philippines
+
+  Digital Media Division - Creative Head : <name>
+  Location: Quezon City, Philippines
+
+  Digital Media Division - Project Management Head : <name>
+  Location: Quezon City, Philippines
+
+  Digital Media Division - Quality Assurance Manager : <name>
+  Location: Quezon City, Philippines
+
+  IT - Applications Management Head : <name>
+  Location: Quezon City, Philippines
+
+  IT - Lead, Development : <name>
+  Location: Quezon City, Philippines
+
+  IT - Lead, Front End Development : <name>
+  Location: Quezon City, Philippines
+
+  IT - Lead, Back End Development : <name>
+  Location: Quezon City, Philippines
+
+
+/* SITE */
+  Last update: 2019/09/25
+  Standards: HTML5, CSS3, Javascript
+  Components: Modernizr, jQuery, Normalize.css, Progressive Internet Explorer, PictureFill
+  IDE: Sublime Text, Photoshop
