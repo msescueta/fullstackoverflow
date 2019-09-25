@@ -15,7 +15,7 @@ To make sure you have Node, npm, and gulp installed, run three simple commands t
 
 #### Installation
 1. **Download the Template**  
-  Clone or download [ZIP](https://bitbucket.org/frontenddevelopment/boilerplate/get/master.zip)
+  Clone or download [ZIP]()
 
 
 2. **Run npm for one-time installation of development dependencies**  
