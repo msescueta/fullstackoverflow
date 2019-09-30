@@ -8,55 +8,17 @@
 @import 'normalize';
 
 // Variables
-@import 'variables'; 
+@import 'variables';  
 
-// Flex
-@import 'flex';
+//Semantic UI
+@import 'globals/all';
+@import 'elements/all';
+@import 'collections/all';
+@import 'views/all'; 
+@import 'modules/all';
 
-// Grid
-//@import 'grid';
-
-// Transitions
-@import 'transitions'; 
- 
-// Forms
-@import 'forms/forms';
-
-// Font Awesome
-@import 'fontawesome.css';  
-
-// Line Awesome (thinner version of Fontawesome)
-@import 'lineawesome.css';    
-
-//ABS Loader 
-@import 'loader'; 
-
-//Buttons
-@import 'button'; 
-
-// Slick
-@import 'slick';
-
-// Tiles
-@import 'tile'; 
-
-// Badge 
-@import 'badges'; 
-
-// Nav Menu 
-@import 'navmenu'; 
-
-// Article
-@import 'article';
- 
-//Lightbox 
-@import 'lightbox'; 
-
-//Sal animate
-@import 'sal'; 
-
-// Tooltip (code: https://github.com/primer/primer/blob/master/modules/primer-tooltips/lib/tooltips.scss)
-//@import 'tooltips';
+// Loader
+@import 'loader';
 
 // Main
 @import 'main';
