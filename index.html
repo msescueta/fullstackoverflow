@@ -46,6 +46,10 @@
 							<input type="text" placeholder="Search...">
 							<i class="search link icon"></i>
 						</div>
+						<!-- <div class="ui inverted transparent icon input">
+							<input type="text" placeholder="Search...">
+							<i class="search iconicon"></i>
+						</div> -->
 					</div>
 				</div>
 				<div class="right menu">
@@ -74,13 +78,9 @@
 						Username
 						<i class="dropdown icon"></i>
 						<div class="menu transition hidden" tabindex="-1">
-							<div class="item">Action</div>
-							<div class="item">Another Action</div>
-							<div class="item">Something else here</div>
-							<div class="divider"></div>
-							<div class="item">Separated Link</div>
-							<div class="divider"></div>
-							<div class="item">One more separated link</div>
+							<div class="item"><i class="cog icon"></i> Account Settings</div>
+							<div class="item"><i class="bell icon"></i> Notifications</div>
+							<div class="item"><i class="sign out alternate icon"></i> Sign out</div>
 						</div>
 					</div>
 				</div>
@@ -187,7 +187,7 @@
 		<div class="ui grid">
 			<div class="four wide column">
 				<div class="ui vertical following fluid accordion menu">
-					<div class="item"><a class="title active"><i class="dropdown icon"></i> <b>Featured</b></a>
+					<div class="item active"><a class="title active"><i class="dropdown icon"></i> <b>Featured</b></a>
 						<div class="content menu active">
 							<a class="item" href="#menu">Menu</a>
 							<a class="item" href="#secondary-menu">Secondary Menu</a>
@@ -198,8 +198,8 @@
 							<a class="item" href="#pagination">Pagination</a>
 						</div>
 					</div>
-					<div class="item active"><a class="title active"><i class="dropdown icon"></i> <b>Racing</b></a>
-						<div class="content menu active">
+					<div class="item"><a class="title"><i class="dropdown icon"></i> <b>Racing</b></a>
+						<div class="content menu">
 							<a class="item" href="#menu">Menu</a>
 							<a class="item" href="#secondary-menu">Secondary Menu</a>
 							<a class="item" href="#pointing">Pointing</a>
@@ -209,8 +209,19 @@
 							<a class="item" href="#pagination">Pagination</a>
 						</div>
 					</div>
-					<div class="item"><a class="title active"><i class="dropdown icon"></i> <b>Sports</b></a>
-						<div class="content menu active">
+					<div class="item"><a class="title"><i class="dropdown icon"></i> <b>Sports</b></a>
+						<div class="content menu">
+							<a class="item" href="#menu">Menu</a>
+							<a class="item" href="#secondary-menu">Secondary Menu</a>
+							<a class="item" href="#pointing">Pointing</a>
+							<a class="item" href="#tabular">Tabular</a>
+							<a class="item" href="#text">Text</a>
+							<a class="item" href="#vertical-menu">Vertical Menu</a>
+							<a class="item" href="#pagination">Pagination</a>
+						</div>
+					</div>
+					<div class="item"><a class="title"><i class="dropdown icon"></i> <b>Live Centre</b></a>
+						<div class="content menu">
 							<a class="item" href="#menu">Menu</a>
 							<a class="item" href="#secondary-menu">Secondary Menu</a>
 							<a class="item" href="#pointing">Pointing</a>
@@ -223,14 +234,14 @@
 				</div>
 				<div class="ui vertical menu">
 					<div class="item">
-						<div class="header">Featured</div>
+						<div class="header">Trending</div>
 						<div class="menu">
 							<a class="item">Enterprise</a>
 							<a class="item">Consumer</a>
 						</div>
 					</div>
 					<div class="item">
-						<div class="header">CMS Solutions</div>
+						<div class="header">Bets</div>
 						<div class="menu">
 							<a class="item">Rails</a>
 							<a class="item">Python</a>
@@ -238,23 +249,91 @@
 						</div>
 					</div>
 					<div class="item">
-						<div class="header">Hosting</div>
+						<div class="header">Sports</div>
 						<div class="menu">
 							<a class="item">Shared</a>
 							<a class="item">Dedicated</a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="header">Support</div>
-						<div class="menu">
-							<a class="item">E-mail Support</a>
-							<a class="item">FAQs</a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="twelve wide column">
 				<div class="ui three column grid">
+					<div class="column">
+						<div class="ui fluid card card-bet">
+							<div class="extra content top">
+								<div class="left floated author">
+									<img class="ui avatar image" src="theme/images/avatar2/small/molly.png">
+									<div class="ui sub header">San Miguel</div>
+								</div>
+								<div class="ui vertical divider">vs.</div>
+								<div class="right floated author">
+									<img class="ui avatar image" src="theme/images/avatar2/small/molly.png">
+									<div class="ui sub header">Alaska</div>
+								</div>
+							</div>
+							<div class="extra content">
+								<div class="center aligned description">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+							</div>
+							<div class="ui one bottom attached buttons">
+								<div class="ui button blue">
+									Place Bet
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui fluid card card-bet">
+							<div class="extra content top">
+								<div class="left floated author">
+									<img class="ui avatar image" src="theme/images/avatar2/small/molly.png">
+									<div class="ui sub header">Ginebra</div>
+								</div>
+								<div class="ui vertical divider">vs.</div>
+								<div class="right floated author">
+									<img class="ui avatar image" src="theme/images/avatar2/small/molly.png">
+									<div class="ui sub header">Petron</div>
+								</div>
+							</div>
+							<div class="extra content">
+								<div class="center aligned description">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+							</div>
+							<div class="ui one bottom attached buttons">
+								<div class="ui button blue">
+									Place Bet
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui fluid card card-bet">
+							<div class="extra content top">
+								<div class="left floated author">
+									<img class="ui avatar image" src="theme/images/avatar2/small/molly.png">
+									<div class="ui sub header">Chooks-to-go</div>
+								</div>
+								<div class="ui vertical divider">vs.</div>
+								<div class="right floated author">
+									<img class="ui avatar image" src="theme/images/avatar2/small/molly.png">
+									<div class="ui sub header">San Miguel</div>
+								</div>
+							</div>
+							<div class="extra content">
+								<div class="center aligned description">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+							</div>
+							<div class="ui one bottom attached buttons">
+								<div class="ui button blue">
+									Place Bet
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="column">
 						<div class="ui fluid card card-bet">
 							<div class="extra content top">
@@ -455,6 +534,9 @@
 			</div>
 		</div>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+	<script type="text/javascript" src="theme/scripts/master.min.js"></script>
 </body>
 
 </html>

@@ -19,7 +19,7 @@ window = (typeof window != 'undefined' && window.Math == Math)
     : Function('return this')()
 ;
 
-$.fn.accordion = function(parameters) {
+$.fn.accordion = function(parameters) { 
   var
     $allModules     = $(this),
 
