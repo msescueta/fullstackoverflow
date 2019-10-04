@@ -1,7 +1,9 @@
 /////////////////
 // Scaffolding //
 /////////////////
-
+body {
+    padding-top: 120px;
+}
 .main-bets {
     padding: 20px 0;
 }
@@ -11,6 +13,12 @@
     flex-direction: column;
     .header-top, .header-bottom {
         flex-direction: row;
+    }
+}
+
+.main {
+    &.container {
+        padding-bottom: 40px;
     }
 }
 
@@ -26,5 +34,21 @@
             border-radius: 0;
         }
     }
-
+    &.card-bet {
+        .top {
+            position: relative;
+            .divider {
+                font-size: 0.87em;
+            }
+            .author {
+                width: 50%;
+                text-align: center;
+                .sub {
+                    &.header {
+                        margin-top: 4px;
+                    }
+                }
+            }
+        }
+    }
 }
