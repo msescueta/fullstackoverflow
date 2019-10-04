@@ -5,3 +5,26 @@
 .main-bets {
     padding: 20px 0;
 }
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    .header-top, .header-bottom {
+        flex-direction: row;
+    }
+}
+
+.ui {
+    &.main-header {
+        &.menu> {
+            border-radius: 0;
+            .grid, .container {
+                flex-direction: row;
+            }
+        }
+        .menu {
+            border-radius: 0;
+        }
+    }
+
+}
