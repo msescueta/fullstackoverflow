@@ -1,5 +1,5 @@
 /*!
- * FED Library  
+ * Fullstack Overflow 
  * Kel Escueta
  */
 
@@ -10,15 +10,26 @@
 // Variables
 @import 'variables';  
 
-//Semantic UI
-@import 'globals/all';
-@import 'elements/all';
-@import 'collections/all';
-@import 'views/all'; 
-@import 'modules/all';
+// Flex
+@import 'flex';
+
+// Transitions
+@import 'transitions'; 
+
+// Nav Menu 
+@import 'navmenu'; 
+
+// Tiles
+@import 'tile';
 
 // Loader
 @import 'loader';
+
+//Buttons
+@import 'button'; 
+
+// Slick
+@import 'slick';
 
 // Main
 @import 'main';
